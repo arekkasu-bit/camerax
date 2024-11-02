@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     Button takePicture;
-    Button startCapture;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         takePicture = findViewById(R.id.image_capture_button);
-        startCapture = findViewById(R.id.video_capture_button);
 
 
         // PERMISOS
